@@ -1,0 +1,19 @@
+{
+    "name": "biaoqianwo/php-htmltopdf-htmltoimage",
+    "description": "transfer html to pdf or image",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "biaoqianwo",
+            "email": "704872038@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Biaoqianwo\\": "src/"
+      }
+    }
+}
