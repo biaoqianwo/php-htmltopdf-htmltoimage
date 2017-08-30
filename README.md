@@ -42,7 +42,7 @@ $generator->getOutputFromHtml($html, $options)
 
 // Image
 $generator = new Html2Image('/usr/local/bin/wkhtmltoimage');
-$options = ['format'=>'png','width'=>'300','width'=>'height'];
+$options = ['format'=>'png','width'=>'300','height'=>'1000'];
 $generator->getOutputFromHtml($html, $options)
 ```
 
